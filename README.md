@@ -50,10 +50,6 @@ Test all:
 
     $ task test
 
-Auto format code:
-
-    $ task fmt
-
 Generate coverage:
 
     $ task cov
