@@ -4,10 +4,10 @@ A prescriptive Golang [Task][] runner.
 
 ## Prescriptivity
 
-* Code linting by `golangci-lint`
-* `Ginkgo` and `Gomega` test framework
-* Source formatting with `gofumpt` and `golines`
-* Coverage report generated with `go-junit-report`
+* Code linting by [golangci-lint][]
+* [Ginkgo][] and [Gomega][] test framework
+* Source formatting with [gofumpt][] and [golines][]
+* Coverage report generated with [go-junit-report][]
 
 ## Install
 
@@ -78,5 +78,11 @@ List targets:
 
 The [MIT] License.
 
-[MIT]: LICENSE
 [Task]: https://github.com/go-task/task
+[golangci-lint]: https://golangci-lint.run/
+[Ginkgo]: https://onsi.github.io/ginkgo/
+[Gomega]: https://onsi.github.io/gomega/
+[gofumpt]: https://pkg.go.dev/github.com/vearutop/gofumpt
+[golines]: https://pkg.go.dev/github.com/wrype/golines
+[go-junit-report]: https://pkg.go.dev/github.com/debspencer/go-junit-report
+[MIT]: LICENSE
