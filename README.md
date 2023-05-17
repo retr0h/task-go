@@ -24,51 +24,51 @@ Install Taskfile into project:
 
 Install dependencies
 
-    $ task go:deps
+    $ task deps
 
 Module maintenance:
 
-    $ task go:mod
+    $ task mod
 
 Report likely mistakes in packages:
 
-    $ task go:vet
+    $ task vet
 
 Run Go's vulnerability scanner:
 
-    $ task go:vuln
+    $ task vuln
 
 Compile and run Go program:
 
-    $ task go:run
+    $ task run
 
 Test packages:
 
-    $ task go:unit
+    $ task unit
 
 Test all:
 
-    $ task go:test
+    $ task test
 
 Auto format code:
 
-    $ task go:fmt
+    $ task fmt
 
 Generate coverage:
 
-    $ task go:cov
+    $ task cov
 
 Reformat files whose formatting differs from `go_fmt_command`:
 
-    $ task go:fmt
+    $ task fmt
 
 Check files whose formatting differs from `go_fmt_command`:
 
-    $ task go:fmt:check
+    $ task fmt:check
 
 Generate markdown documentation for golang code:
 
-    $ task go:doc:generate
+    $ task doc:generate
 
 List targets:
 
