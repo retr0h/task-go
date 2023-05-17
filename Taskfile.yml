@@ -1,9 +1,6 @@
 ---
 version: "3"
 
-includes:
-  global: ../../.tasks/global.yml
-
 vars:
   GIT_ROOT:
     sh: git rev-parse --show-toplevel
